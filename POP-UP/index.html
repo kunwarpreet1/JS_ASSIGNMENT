@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssignmentQ3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo1.jpg" id="logo-image">
+
+        <hr>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+        <ul class="nav-bar">
+            <div class="menu-item" onclick="toggleDropdown(event)">HOME
+                <ul class="dropdown">
+                    <li>TIGHT SIDEBAR POST</li>
+                    <li>FULLWIDTH POST</li>
+                    <li>LEFTSIDEBARPOST</li>
+                    <li>GALLERY POST</li>
+                    <li>VIDEO POST</li>
+                    <li>MUSIC POST</li>
+                </ul>
+                <i class="arrow down"></i>
+            </div>
+            <div class="menu-item" onclick="toggleDropdown(event)">SINGLE POSTS
+                <ul class="dropdown">
+                    <li>TIGHT SIDEBAR POST</li>
+                    <li>FULLWIDTH POST</li>
+                    <li>LEFTSIDEBARPOST</li>
+                    <li>GALLERY POST</li>
+                    <li>VIDEO POST</li>
+                    <li>MUSIC POST</li>
+                </ul>
+                <i class="arrow down"></i>
+            </div>
+            <div class="menu-item" onclick="toggleDropdown(event)">PAGES
+                <ul class="dropdown">
+                    <li>TIGHT SIDEBAR POST</li>
+                    <li>FULLWIDTH POST</li>
+                    <li>LEFTSIDEBARPOST</li>
+                    <li>GALLERY POST</li>
+                    <li>VIDEO POST</li>
+                    <li>MUSIC POST</li>
+                </ul>
+                <i class="arrow down"></i>
+            </div>
+
+            <div class="menu-item" onclick="toggleDropdown(event)">CATEGORY
+                <ul class="dropdown">
+                    <li>TIGHT SIDEBAR POST</li>
+                    <li>FULLWIDTH POST</li>
+                    <li>LEFTSIDEBARPOST</li>
+                    <li>GALLERY POST</li>
+                    <li>VIDEO POST</li>
+                    <li>MUSIC POST</li>
+                </ul>
+                <i class="arrow down"></i>
+            </div>
+            <div class="menu-item" onclick="toggleDropdown(event)">ABOUT
+                <ul class="dropdown">
+                    <li>TIGHT SIDEBAR POST</li>
+                    <li>FULLWIDTH POST</li>
+                    <li>LEFTSIDEBARPOST</li>
+                    <li>GALLERY POST</li>
+                    <li>VIDEO POST</li>
+                    <li>MUSIC POST</li>
+                </ul>
+                <i class="arrow down"></i>
+            </div>
+            <div class="menu-item" onclick="toggleDropdown(event)">CONTACT ME
+                <ul class="dropdown">
+                    <li>TIGHT SIDEBAR POST</li>
+                    <li>FULLWIDTH POST</li>
+                    <li>LEFTSIDEBARPOST</li>
+                    <li>GALLERY POST</li>
+                    <li>VIDEO POST</li>
+                    <li>MUSIC POST</li>
+                </ul>
+                <i class="arrow down"></i>
+            </div>
+            <div class="menu-item" onclick="toggleDropdown(event)">FEATURES
+                <ul class="dropdown">
+                    <li>TIGHT SIDEBAR POST</li>
+                    <li>FULLWIDTH POST</li>
+                    <li>LEFTSIDEBARPOST</li>
+                    <li>GALLERY POST</li>
+                    <li>VIDEO POST</li>
+                    <li>MUSIC POST</li>
+                </ul>
+                <i class="arrow down"></i>
+            </div>
+        </ul>
+
+
+    </header>
+    <main>
+        <section class="banner-image">
+            <img src="image.png" width="100%" height="300px" />
+            <div class="abovebanner">
+                <h1>CONTACT US</h1>
+                <p>Let's get in touch</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="main-container">
+
+        <div class="container">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas delectus quibusdam quisquam labore maxime vel dolorum similique minus ut,
+                Voluptatum amet, ratione odit officia labore incidunt numquam
+                ab harum illo quis repellend ipsa, iusto perferendis laudantium perspiciatis.
+                maiores unde sapiente? Quis, officisa? Earum, quis dolores? Minus
+                cupiditate esse vero earum.
+
+            </p>
+
+            <form>
+
+                <h4>NAME*</h4>
+                <input type="text"><br><br>
+
+
+                <h4>EMAIL*</h4>
+                <input type="text"><br><br>
+
+                <h4>PASSWORD*</h4>
+                <input type="text"><br><br>
+
+
+                <div>
+                    <h4 for="gender">Gender:</h4>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </div>
+
+
+                <div>
+                    <h4>CITY*</h4>
+                    <select>
+                        <option value="delhi">Delhi</option>
+                        <option value="punjab">Punjab</option>
+                        <option value="haryana">Haryana</option>
+                    </select>
+                </div>
+
+                <div>
+                    <h4>HOBBIES*</h4>
+                    <label>Reading</label>
+                    <input type="checkbox">
+                    <label>Writting</label>
+                    <input type="checkbox">
+                    <label>Music</label>
+                    <input type="checkbox">
+                    <label>Sports</label>
+                    <input type="checkbox">
+                </div>
+
+                <h4>MESSAGE*</h4>
+                <textarea rows="10" cols="100"></textarea>
+
+                <br><br>
+
+                <button class="button-tag" style="background-color: grey;" onclick="openPopup()">SUBMIT FORM</button>
+            </form>
+
+        </div>
+        <div class="new-container">
+            <div class="rightcomponent">
+                <h5>ABOUT US</h5>
+                <img src="right.jpeg">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p><i>Lorem, ipsum.</i></p>
+            </div>
+
+            <div class="links">
+                <h5>FOLLOW ME ON</h5>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section id="listing">
+            <div class="list1">
+                <h5>Recent Posts</h5>
+                <ul>
+                    <li>
+                        <div class="title">BEAUTY OF NATURE</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">FASHION MODEL SHOOT</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">GOLDEN SNOW LAND</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="list2">
+                <h5>POPULAR POSTS</h5>
+                <ul>
+                    <li>
+                        <div class="title">TOP 10 INGREDIENTS</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">FAMILY COMES FIRST</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">GOLDEN SNOW LAND</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="list3">
+                <h5>Recent Posts</h5>
+                <ul>
+                    <li>
+                        <div class="title">BEAUTY OF NATURE</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">FASHION MODEL SHOOT</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">GOLDEN SNOW LAND</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="list4">
+                <h5>POPULAR POSTS</h5>
+                <ul>
+                    <li>
+                        <div class="title">TOP 10 INGREDIENTS</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">FAMILY COMES FIRST</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                    <li>
+                        <div class="title">GOLDEN SNOW LAND</div>
+                        <div class="date">July 22,2015</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="copyright">
+            <div id="copyright-text">&copy; 2025 Your Company Name. All rights reserved.</div>
+            <div>
+                <ul id="footer-nav-link">
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About Us</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <div id="popup" class="popup-container">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Would you like to proceed with the Submit action?</h2>
+            <button class="popup-button" style="background-color: aqua;">Proceed</button>
+            <button class="popup-button" style="background-color: grey;" onclick="closePopup()">Cancel</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
